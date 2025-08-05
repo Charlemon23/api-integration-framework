@@ -1,14 +1,21 @@
-# Api Integration Framework
+# API Integration Framework
 
-Framework for integrating with and automating workflows via financial APIs.
+A Python framework for connecting to and retrieving data from financial APIs.  
+Includes an example integration with the CoinGecko API for cryptocurrency pricing.  
+Designed for analysts, developers, and researchers who need quick access to market data.
 
 ## Features
-- Clean, modular Python code
-- Ready-to-run scripts
-- Example datasets included
+- Connect to public financial APIs.
+- Retrieve live market prices for specified assets.
+- Simple, modular codebase for adding new API integrations.
+- Error handling for stable performance.
 
-## Getting Started
+## Technologies
+- Python
+- requests
+
+## Installation
+Clone the repository:
 ```bash
-pip install -r requirements.txt
-python main.py
-```
+git clone https://github.com/Charlemon23/api-integration-framework.git
+cd api-integration-framework
